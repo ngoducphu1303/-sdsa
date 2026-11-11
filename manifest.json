@@ -1,0 +1,46 @@
+{
+  "id": "zodiac_leo",
+  "project": "Artemis",
+  "version": "hires-attack-v1",
+  "status": "partial — only Attack has six newly generated distinct poses",
+  "frameWidth": 512,
+  "frameHeight": 512,
+  "sourceGeneration": {
+    "frameNativeResolution": "~507x507 pixels",
+    "background": "AI-generated checkerboard, programmatically removed",
+    "color": "RGBA PNG",
+    "sourceFile": "chibi_lion_warrior_flame_slash_animation.png"
+  },
+  "animations": {
+    "attack": {
+      "type": "spritesheet",
+      "file": "spritesheets/leo_attack_6x1.png",
+      "frames": 6,
+      "columns": 6,
+      "fps": 9,
+      "loop": false,
+      "frameFiles": [
+        "frames/attack/leo_attack_00.png",
+        "frames/attack/leo_attack_01.png",
+        "frames/attack/leo_attack_02.png",
+        "frames/attack/leo_attack_03.png",
+        "frames/attack/leo_attack_04.png",
+        "frames/attack/leo_attack_05.png"
+      ]
+    },
+    "idle": {
+      "type": "single",
+      "file": "leo_idle_static.png",
+      "frames": 1,
+      "loop": false,
+      "note": "One neutral pose only; 6-frame loop not yet newly illustrated"
+    },
+    "hit": null,
+    "death": null
+  },
+  "safety": {
+    "hitbox": "unchanged — use existing game entity hitbox",
+    "combatStats": "not modified",
+    "githubUpdated": false
+  }
+}
